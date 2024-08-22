@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animations</title>
+    <style>
+        @keyframes slide {
+            from {
+                transform: translateX(0);
+            }
+            to {
+                transform: translateX(200px);
+            }
+        }
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation: slide 2s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
